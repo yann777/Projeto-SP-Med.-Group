@@ -1,0 +1,295 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corpo{
+    width: 100%;
+    
+    background-image: url('../img/image\ 8.png');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100% 100%;
+
+    
+} 
+.corpo h1{
+    justify-content: center;
+    padding-bottom: 57px;
+}
+
+
+.topo{
+    width: 100%;
+    height: 100px;
+    background-color:  white;
+    
+
+}
+.container{
+    width: 100%;
+    height: 95px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu_topo{
+        width: 65%;
+        height: 100%;
+        
+        
+}
+.menu_topo a:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 8px;
+}
+.menu_topo ul{
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.menu_topo a{
+    text-decoration: none;
+    color: black;
+    padding: 12px 30px;
+    
+    
+}
+.imglogo{
+    width: 85px;
+    height: 75px;
+    
+}
+
+.menu_topo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgperfil{
+    width: 50px;
+    height: 50px;
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    }
+
+
+    .content{
+        width: 95%;
+        max-width: 75em;
+        height: 100%;
+        /* background-color: aqua; */
+        margin: auto;
+    }
+    .flex-spbt-center{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .posicao{
+        width: 70em;
+        
+        padding-left: 7%;
+    }
+    .grid{
+        width: 100%;
+       
+        
+        /* background-color:#3683FF; */
+    }
+    .lista{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        
+    }
+    .listagem{
+        width: 100%;
+        height: 100%;
+        /* background-color: aquamarine; */
+        
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .listagem p{
+        margin: 10px;
+        color: white;
+        
+    }
+    .descricao{
+        width: 700px;
+        /* background-color: darkblue; */
+        display: flex;
+    }
+    .desc{
+        height: 100px;
+    }
+    .desc p {
+        
+        color: white;
+    }
+    .alterar{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .btnalt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:cornflowerblue;
+        border: cornsilk;
+        height: 30px;
+        align-items: center;
+        border-radius: 2px;
+        color: white;
+
+    }
+    .btnalt:hover{
+        width: 100%;
+        height: 30px;
+        color: black;
+        background-color: white;
+    }
+    .input{
+        width: 200px;
+    }
+    .conf{
+        width: 96px;
+        background-color:crimson;
+        color: white;
+        border: black;
+    }
+    .links-footer{
+        width: 33%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .links{
+        color: black;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
+    }
+    .rodape{
+        padding: 1em 0;
+    }
+    .logo-rodape{
+        width: 85px;
+        height: 75px;
+    
+    }
+    .sociais h2{
+        color: black;
+    }
+    .sociais > h2 {
+        font-size: 0.875em;
+    }
+    
+    .sociais form {
+        display: flex;
+        margin-bottom: 0.5em;
+    }
+    .sociais input[type="email"]{
+        height: 2.3125em;
+        width: 12.1875em;
+    }
+    .sociais input[type="email"]::placeholder{
+        color: #b8b3b3;
+        font-weight: bold;
+    }
+    .sociais input[type="submit"] {
+        width: 9.75em;
+        color:black;
+        background-color: #8326EF;
+        font-size: 1.1em;
+    
+    }
+    .siga-nos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.8em;
+    }
+    .box{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 500px;
+        height: 180px;
+        background-color: #3683FF;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .box2{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300px;
+        height: 180px;
+        background-color: #3683FF;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .divisao{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cadastrotipo{
+        width: 100%;
+        height: 12.5em;
+        display: flex;
+        background-color: #fafafa;
+        justify-content: center;
+    }
+    .inputtipo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .select{
+        background-color: #3683FF;
+        margin: 5px;
+    }
+    .flx{
+        display: flex;
+    }
+    .jtc{
+        justify-content: center;
+    }
+    .formcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    

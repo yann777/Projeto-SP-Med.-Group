@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.spmedicalgroup.webApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai.spmedicalgroup.webApi.Controllers.ClinicasController.#ctor">
+            <summary>
+            Instancia o objeto _habilidadeRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Controllers.ConsultasController.#ctor">
+            <summary>
+            Instancia o objeto _habilidadeRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Controllers.ConsultasController.ListaTodas">
+            <summary>
+            Lista todas as consultas
+            </summary>
+            <returns>uma lista de consultas</returns>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Controllers.ConsultasController.Get">
+            <summary>
+            Lista todas as consultas de um determinado usuario
+            </summary>
+            <returns>lista de consultas e um status code 200</returns>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Controllers.TiposUsuariosController.#ctor">
+            <summary>
+            Instancia o objeto _habilidadeRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Interfaces.IConsultaRepository.Cadastrar(senai.spmedicalgroup.webApi.Domains.Consultum)">
+            <summary>
+            Agenda uma nova consulta
+            </summary>
+            <param name="novaConsulta">objeto com os dados da nova consulta</param>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Interfaces.IConsultaRepository.ListarMinhas(System.Int32)">
+            <summary>
+            Lista as consultas do paciente logado
+            </summary>
+            <param name="id">id do usuario que tem as consultas</param>
+            <returns>lista as consultas</returns>
+        </member>
+        <member name="M:senai.spmedicalgroup.webApi.Interfaces.IConsultaRepository.StatusConsulta(System.Int32,System.String)">
+            <summary>
+            Altera o status de uma consulta
+            </summary>
+            <param name="id">ID da consulta que sera alterada</param>
+            <param name="status">Parametro que atualiza a situação da presença para 1- confirmada 0-recusada 3- nao confirmada</param>
+        </member>
+        <member name="M:senai.hroads.WebApi.Controllers.LoginController.#ctor">
+            <summary>
+            Instancia o objeto _habilidadeRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="F:senai.hroads.WebApi.Repositories.UsuarioRepository.ctx">
+            <summary>
+            Objeto contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+    </members>
+</doc>
